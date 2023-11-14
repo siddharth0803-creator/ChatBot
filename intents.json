@@ -1,0 +1,609 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey!!",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "About",
+        "patterns": [
+          "Tell me something about Computer Science and Engineering Department",
+          "Tell something about CSE department",
+          "Vision of Computer Science department",
+          "mission of CSE department",
+          "Year of Establishment of Computer Science and Engineering Department",
+          "Different Degree offered in CSE department"
+        ],
+        "responses": [
+            "Vison - \n To promote Research and Development in the frontier areas of Computer Science & Engineering. \n To generate Competent Professionals to become part of the industry and Research Organizations at the National and International levels. \n To provide necessary strengths to enable the students to Innovate and to become Entrepreneurs \n\n\n Mission - To impart effective education at undergraduate levels in the field of Computer Science and Engineering \n To conduct Research and Development and offer consultancy services. \n To improve continuously the quality of teaching-learning process. \n To strive steadily for the overall growth and development of intellect and personality of the students who, as professionals, would be confident to face the challenges of the world of work. \n To empower the faculty and staff for overall development of students. \n\n\n Year Of Establishment - \n Year 2000 \n\n\n Intake - \n B.Teh. (Comp. Sc. Engg.) - 114 \n\n\n Degree Offered - \n  Bachelor of Technology (B.Tech.) in Computer Science & Engineering."              
+        ]
+      },
+      {
+        "tag": "Lab",
+        "patterns": [
+          "Different Laboratories in CSE",
+          "What all practicals Do Computer Science Department offer",
+          "Different Labs in Computer Science and Engineering",
+          "Total Number of Labs in CSE"
+        ],
+        "responses": [
+          "Labs offered are - \n\n Advanced Computer Networking Laboratory \n Data Base Management System Laboratory \n Operating Systems (Unix/Linux) Laboratory \n Artificial Intelligence Laboratory \n C Programming Laboratory \n OOP s Programming Laboratory \n Network Programming Laboratory"
+        ]
+      },
+      {
+        "tag": "Achievment",
+        "patterns": [
+          "Different Achievemnts student from CSE Achieved",
+          "Achievements of Computer Science and Engineering Department",
+          "Success of CSE students"
+        ],
+        "responses": [
+          "GE Edison Challenge 2016 Winners \n Students Achievements in the Academic Session 2015 \n Students Achievements in the Academic Session 2013-14 \n Students of NIT Raipur top the Amdocs Code Mania 2013"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "HOD",
+        "patterns": [
+          "Head of Department for CSE",
+          "HOD of Computer Science and Engineering Department",
+          "Head of CSE Department",
+          "Dr. Pradeep Singh",
+          "Tell me Something about Dr. Pradeep Singh",
+          "Who is Pradeep Singh",
+          "Pradeep Singh",
+          "Pradeep sir",
+          "Specialisation of Pradeep sir",
+          "How to contact Head of CSE Department",
+          "How to contact Dr. Pradeep Singh"
+        ],
+        "responses": [
+          "Dr. Pradeep Singh sir is Head of CSE Department. \n Have specialization on Machine Learning, Software Engineering, DBMS. \n You can contact him via Email psingh.cs@nitrr.ac.in or hod.cse@nitrr.ac.in \n You can also contact via number 9407627366"
+        ]
+      },
+      {
+        "tag": "Dr_Dilip_Singh_Sisodiya",
+        "patterns": [
+            "Dr. Dilip Singh Sisodiya",
+            "Tell me Something about Dr. Dilip Singh Sisodiya",
+            "Who is Dr. Dilip Singh Sisodiya",
+            "Dilip Singh Sisodiya",
+            "Sisodiya sir",
+            "Designation of Dr. Dilip Singh Sisodiya sir",
+            "Specialisation of Sisodiya sir",
+            "How to contact Dr. Dilip Singh Sisodiya"
+        ],
+        "responses": [
+          "Dr. Dilip Singh Sisodiya sir holds Designation of a Associate Professer. Have Specialization in Artificial Intelligence, Machine Learning, Soft Computing, Computational Intelligence, Biomedical Image/Signal Processing,Theoretical Computer Science. \n You can contact him via Email dssisodia.cs@nitrr.ac.in \n You can also contact via number 8462808174"
+        ]
+      },
+      {
+        "tag": "Dr_Naresh_Kumar_Nagwani",
+        "patterns": [
+            "Dr. Naresh Kumar Nagwani",
+            "Tell me Something about Dr. Naresh Kumar Nagwani",
+            "Who is Dr. Naresh Kumar Nagwani",
+            "Naresh Kumar Nagwani",
+            "Nagwani sir",
+            "Designation of Dr. Naresh Kumar Nagwani sir",
+            "Specialisation of Nagwani sir",
+            "How to contact Dr. Naresh Kumar Nagwani"
+        ],
+        "responses": [
+          "Dr. Naresh Kumar Nagwani sir holds Designation of a Associate Professer. Have specialisation in Data Mining, Text Mining, Software Engineering. \n You can contact him via Email nknagwani.cs@nitrr.ac.in \n You can also contact via number 9993312001"
+        ]
+      },
+      {
+        "tag": "Dr_Akansha_Sharaff",
+        "patterns": [
+            "Dr. Akansha Sharaff",
+            "Tell me Something about Dr. Akansha Sharaff",
+            "Who is Dr. Akansha Sharaff",
+            "Akansha Sharaff",
+            "Akansha mam",
+            "Designation of Dr. Akansha Sharaff mam",
+            "Specialisation of Akansha mam",
+            "How to contact Dr. Akansha Sharaff"
+        ],
+        "responses": [
+          "Dr. Akansha Sharaff mam holds Designation of a Assistant Professor. Have specialisation in Data Mining, Text Mining, Software Engineering. \n You can contact her via Email asharaff.cs@nitrr.ac.in \n You can also contact via number 8817813946"
+        ]
+      },
+      {
+        "tag": "Dr_Veena_Anand",
+        "patterns": [
+            "Dr. Veena Anand",
+            "Tell me Something about Dr. Veena Anand",
+            "Who is Dr. Veena Anand",
+            "Veena Anand",
+            "Veena mam",
+            "Designation of Dr. Veena Anand mam",
+            "Specialisation of Veena mam",
+            "How to contact Dr. Veena Anand"
+        ],
+        "responses": [
+          "Dr. Veena Anand mam holds Designation of a Assistant Professor. Have specialisation in Wireless Sensor Networks, Mobile Ad-hoc Networks, Internet Of Things,Soft Computing. \n You can contact her via Email vanand.cs@nitrr.ac.in \n You can also contact via number 7587071023"
+        ]
+      },
+      {
+        "tag": "Dr_Manu_Vardhan",
+        "patterns": [
+            "Dr. Manu Vardhan",
+            "Tell me Something about Dr. Manu Vardhan",
+            "Who is Dr. Manu Vardhan",
+            "Manu Vardhan",
+            "Veena sir",
+            "Designation of Dr. Manu Vardhan sir",
+            "Specialisation of Manu sir",
+            "How to contact Dr. Manu Vardhan"
+        ],
+        "responses": [
+          "Dr. Manu Vardhan sir holds Designation of a Assistant Professor. Have specialisation in Distributed System. \n You can contact him via Email mvardhan.cs@nitrr.ac.in \n You can also contact via number 9770543061"
+        ]
+      },
+      {
+        "tag": "Dr_Preeti_Chandrakar",
+        "patterns": [
+            "Dr. Preeti Chandrakar",
+            "Tell me Something about Dr. Preeti Chandrakar",
+            "Who is Dr. Preeti Chandrakar",
+            "Preeti Chandrakar",
+            "Preeti mam",
+            "Designation of Dr. Preeti Chandrakar mam",
+            "Specialisation of Preeti mam",
+            "How to contact Dr. Preeti Chandrakar"
+        ],
+        "responses": [
+          "Dr. Preeti Chandrakar mam holds Designation of a Assistant Professor Grade-I. Have specialisation in Information Security, Authentication, Network Security, Cloud Security. \n You can contact her via Email pchandrakar.cs@nitrr.ac.in \n You can also contact via number 7003171408"
+        ]
+      },
+      {
+        "tag": "Dr_K_Jairam_Naik",
+        "patterns": [
+            "Dr. K. Jairam Naik",
+            "Tell me Something about Dr. K. Jairam Naik",
+            "Who is Dr. K. Jairam Naik",
+            "Jairam Naik",
+            "KJN sir",
+            "Designation of Dr. K. Jairam Naik sir",
+            "Specialisation of KJN sir",
+            "How to contact Dr. K. Jairam Naik"
+        ],
+        "responses": [
+          "Dr. K. Jairam Naik sir holds Designation of a Assistant Professor. Have specialisation in  Grid & Distributed Computing, Computer Networks, Cloud Computing. \n You can contact him via Email jnaik.cse@nitrr.ac.in \n You can also contact via number 09959971548"
+        ]
+      },
+      {
+        "tag": "Dr_Deepak_Singh",
+        "patterns": [
+            "Dr. Deepak Singh",
+            "Tell me Something about Dr. Deepak Singh",
+            "Who is Dr. Deepak Singh",
+            "Deepak Singh",
+            "Deepak sir",
+            "Designation of Dr. Deepak Singh sir",
+            "Specialisation of Deepak sir",
+            "How to contact Dr. Deepak Singh"
+        ],
+        "responses": [
+          "Dr. Deepak Singh sir holds Designation of a Assistant Professor Grade-II. Have specialisation in  Domain Adaptation, Dataset Shift, Evolutionary Computation, Machine Learning. \n You can contact him via Email dsingh.cs@nitrr.ac.in \n You can also contact via number +919827916708"
+        ]
+      },
+      {
+        "tag": "Dr_Sonal_Yadav",
+        "patterns": [
+            "Dr. Sonal Yadav",
+            "Tell me Something about Dr. Sonal Yadav",
+            "Who is Dr. Sonal Yadav",
+            "Sonal Yadav",
+            "Sonal mam",
+            "Designation of Dr. Sonal Yadav mam",
+            "Specialisation of Sonal mam",
+            "How to contact Dr. Sonal Yadav"
+        ],
+        "responses": [
+          "Dr. Sonal Yadav mam holds Designation of a Assistant Professor Grade-II. Have specialisation in  Networks-on-chip, Computer Architecture, AI and Machine Learning. \n You can contact her via Email syadav.cse@nitrr.ac.in \n You can also contact via number 9785999900"
+        ]
+      },
+      {
+        "tag": "Dr_Jitendra_Kumar_Rout",
+        "patterns": [
+            "Dr. Jitendra Kumar Rout",
+            "Tell me Something about Dr. Jitendra Kumar Rout",
+            "Who is Dr. Jitendra Kumar Rout",
+            "Jitendra Kumar Rout",
+            "Rout sir",
+            "Designation of Dr. Jitendra Kumar Rout sir",
+            "Specialisation of Rout sir",
+            "How to contact Dr. Jitendra Kumar Rout"
+        ],
+        "responses": [
+          "Dr. Jitendra Kumar Rout sir holds Designation of a Assistant Professor. Have specialisation in  NLP, AI and Machine Learning, Information Security, IoT, Theoretical Computer Science. \n You can contact him via Email jkrout.cs@nitrr.ac.in \n You can also contact via number +91 9439622802"
+        ]
+      },
+      {
+        "tag": "Mr_Nilesh_Kumar_Verma",
+        "patterns": [
+            "Mr. Nilesh Kumar Verma",
+            "Tell me Something about Mr. Nilesh Kumar Verma",
+            "Who is Mr. Nilesh Kumar Verma",
+            "Nilesh Kumar Verma",
+            "Nilesh sir",
+            "Designation of Mr. Nilesh Kumar Verma sir",
+            "Specialisation of Nilesh sir",
+            "How to contact Mr. Nilesh Kumar Verma"
+        ],
+        "responses": [
+          "Mr. Nilesh Kumar Verma sir is a temporary Faculty. Have specialisation in Wireless Sensor Networks. \n You can contact him via Email nkverma.cs@nitrr.ac.in \n You can also contact via number 9770406560"
+        ]
+      },
+      {
+        "tag": "Mr_Ravi_Kumar_Verma",
+        "patterns": [
+            "Mr. Ravi Kumar",
+            "Tell me Something about Mr. Ravi Kumar",
+            "Who is Mr. Ravi Kumar",
+            "Ravi Kumar",
+            "Ravi sir",
+            "Designation of Mr. Ravi Kumar sir",
+            "Specialisation of Ravi sir",
+            "How to contact Mr. Ravi Kumar"
+        ],
+        "responses": [
+          "Mr. Ravi Kumar sir is a temporary Faculty. Have specialisation in Data Mining, Machine Learning. \n You can contact him via Email rkumar.cs@nitrr.ac.in \n You can also contact via number 9753053016"
+        ]
+      },
+      {
+        "tag": "About_NITRR",
+        "patterns": [
+            "Tell me Something about National Institute of Technology Raipur",
+            "Tell me Something about NIT Raipur",
+            "Give breif Introduction of NITRR"
+        ],
+        "responses": [
+          "The institute is committed to the challenging task of development of technical education by preparing seasoned graduates in highly sophisticated field of engineering and technology. Development of India as an emerging industrial power is a demanding exercise as it involves the combination of cost effectiveness and efficiency along with producing world-class technology at the cutting edge. For about five decades we have been doing it with sincerity and commitment at NIT Raipur. At present the institute offers graduate level courses in twelve disciplines."
+        ]
+      },
+      {
+        "tag": "Director",
+        "patterns": [
+            "Who is Director of National Institute of Technoogy Raipur",
+            "Who is Director of NIT Raipur",
+            "Tell me something about Director NIT Raipur",
+            "Dr. N V Ramana Rao"
+        ],
+        "responses": [
+          "Dr. N.V. Ramana Rao is at present Director & Professor of Civil Engineering at National Institute of Technology Raipur. He did his BE in Civil Engineering from (Osmania), M.Tech from (IIT Delhi), Ph.D (from (UK) and Post Doctorate.(from UK) in Civil and Structural Engineering from University of Wales, Swansea , UK. He has held several Administrative posts as Registrar, JNTU Hyderabad, Kukatpally, Hyderabad from 30.04.2012 to 21.07.2015, as Principal, JNTUH College of Engineering Hyderabad, Kukatpally, Hyderabad from 30.04.2008 to 24.11.2011, as Director, Bureau of Industrial Consultancy Services, JNTU, Hyderabad from 05.09.2003 to 05.05.2006, as Co-ordinator, Entrepreneurship Development Cell, JNTU, Hyderabad from 01.08.2002 to 31.01.2004."
+        ]
+      },
+      {
+        "tag": "Library",
+        "patterns": [
+            "Does NIT Raipur have Library ?",
+            "Where is the Library located",
+            "How many books are their in central Library"
+        ],
+        "responses": [
+          "The Central Library of NIT, Raipur has a good collection of more than 1 lakh of print books , more than 1.7 lacs e-books consisting of both text and reference books Ph.D theses, online journal Archive collections and online protocols . Besides it subscribes to a good number of full text online databases ,Indian print journals . The Central Library is fully automated through LibSys7- Library management software .The Web OPAC is fully functional. RFID system has been installed in the Reading Room of Central Library.It also has Discovery Service ,Remote access facilities and plagiarism check software like Turnitin Feedback Studio and URKUND .It caters to the information and document need of nearly 5000 users consisting of Faculty members, staff, B.Tech/M.Tech/MCA students and research scholars satisfactorily."
+        ]
+      },
+      {
+        "tag": "Hostel",
+        "patterns": [
+            "what are the Hostel faciities in NIT Raipur",
+            "Hostel facilities",
+            "How many Hostels are their in NIT Raipur"
+        ],
+        "responses": [
+          "The institute provides a limited residential facility for boys and girls students. There are 05 boys and 03 girls’ hostels within the campus. \n\n The Institute offers limited residential facility for the students (boys) admitted to various courses in the institute. There are 05 boys’ hostels inside the campus. All hostels have an approximate capacity to house about 1180 inmates. Each hostel is self-contained with amenities, such as recreation cum dining hall with mess, badminton court, garden, etc. All the hostel rooms are adequately furnished. Hostel administration is managed by Chief Warden, a senior faculty member with a team of efficient Wardens. In addition, there is employed one caretaker for each hostel to manage day-to-day affairs of the hostel. Hostel office has full-fledged supporting staff and other workers. \n\n The Institute offers limited residential facility for the students (girls) admitted to various courses in the institute. There are 04 girls’ hostels inside the campus. All hostels have an approximate capacity to house about 414 inmates. Each hostel is self-contained with amenities, such as recreation cum dining hall with mess, gym, garden, etc. All the hostel rooms are adequately furnished. Hostel administration is managed by Chief Warden, a senior faculty member with a team of efficient Wardens. In addition, there is one Matron for each hostel to manage day-to-day affairs of the hostel. Hostel office has full-fledged supporting staff and other workers."
+        ]
+      },
+      {
+        "tag": "Medication",
+        "patterns": [
+            "Medication Facilities in NIT Raipur",
+            "Dispensary",
+            "Mediaction Facilities",
+            "Where is dispensary located",
+            "Health care Facilities in NIT Raipur"
+        ],
+        "responses": [
+          "NIT Dispensary Raipur is situated D- 5 quarter opposite to Nilgiri apartment faculty quarter having three rooms for the Doctors and one hall is for the consultant doctor, one pathology room & one staff room of the Dispensary \n\n Emergency Contract Number :- \n 09589489844 - for AMBULANCE \n 09009331080- for NIT DISPENSARY (JAY PRAKASH NAYAK)"
+        ]
+      },
+      {
+        "tag": "Guest_House",
+        "patterns": [
+            "Guest House",
+            "Where is the Guest House Located",
+            "Facilities in Guest House",
+            "Who all can use Guest House"
+        ],
+        "responses": [
+          "Guest House of the institute provides accommodation facility to the institute guests, guests of the faculty/staff members of the institute, parents of the students, visitors from other NITs and educational institutes, participants of the activities organised by the institute and persons with approval from appropriate authorities. Guest house has three living rooms, one dining hall and one hall. All rooms are equipped with state of art facilities like AC, TV, and Refrigerator etc."
+        ]
+      },
+      {
+        "tag": "Vachan",
+        "patterns": [
+            "Vachan",
+            "Where is the Vachan Located",
+            "Where is Vachan",
+            "What is Vachan",
+            "What items can we get from vachan",
+            "items in vachan",
+            "products in vachan"
+        ],
+        "responses": [
+          "Vachan Milk Parlour, being located in close proximity to the Main Building of the Institute, was inaugurated on January 05, 2023 by Dr. (Mrs.) A. B. Soni, Director NIT Raipur in the presence of Dr. P. Y. Dhekne, Dean (Student Welfare & Faculty Welfare); Dr. Shrish Verma, Dean (Academics); Mr. Ajaii Sharma, Joint Registrar and other dignitaries. The facility has a wide range of dairy products and food items where students and employees can eat as well as interact with their peers."
+        ]
+      },
+      {
+        "tag": "Amul_Parler",
+        "patterns": [
+            "Amul Parler",
+            "Where is the Amul parler Located",
+            "Where is Amul parler",
+            "What is Amul parler",
+            "What items can we get from Amul pareler",
+            "items in Amul Parler",
+            "products in Amul Parler"
+        ],
+        "responses": [
+          "Amul Parlour, being located in close proximity to the Main Building of the Institute. The facility has a wide range of dairy products and food items where students and employees can eat as well as interact with their peers."
+        ]
+      },
+      {
+        "tag": "College_Canteen",
+        "patterns": [
+            "College Canteen",
+            "Where is the College Canteen Located",
+            "where is College Canteen",
+            "What items can we get from College canteen",
+            "items in College canteen",
+            "products in College canteen"
+        ],
+        "responses": [
+          "College canteen, being located in close proximity to the CCC. The facility has a wide range of food items like South Indian items, Chineese items etc, where students and employees can eat as well as interact with their peers."
+        ]
+      },
+      {
+        "tag": "Clubs",
+        "patterns": [
+            "What different clubs and committees college have",
+            "diffrent clubs and committees in NITRR",
+            "clubs and committees",
+            "In which different activities can students participate",
+            "Different activities in college"
+        ],
+        "responses": [
+          "Different clubs and committees in College are - \n\n Finance and consulting club \n Abhinay - The Dramatic club \n Robotix club \n Shaurya club \n Technocracy \n Ragga - The music club \n Click club \n Go Green club \n Nrityam - The Dance club \n Sahyog - The mentorship club "
+        ]
+      },
+      {
+        "tag": "Finance_and_consulting_club",
+        "patterns": [
+            "What is Finance and consulting club",
+            "Finance and consulting club",
+            "What Finance and consulting club do",
+            "Aim of Finance and consulting club"
+        ],
+        "responses": [
+          "The central focus of the Finance club is to cultivate interest among the students towards the financial sector as well as to promote it as aviable career option post their engineering degree.Finance club will provide students an opportunity to explore the world of Finance,Business Consulting and Analytics.The club plans to not only connect members with alumni and finance professionals but also extend practicalfinancial education with job-specific knowledge.We plan to achieve this goal through collaborative learning and facilitating career continuity by connecting students,industry and academics."
+        ]
+      },
+      {
+        "tag": "Abhinay",
+        "patterns": [
+            "Drama club of NIT Raipur",
+            "Abhinay",
+            "what Drama club do",
+            "Do we have Drama club in college",
+            "Different activities abhinay perform in college"
+        ],
+        "responses": [
+          "ABHINAY- THE DRAMATICS CLUB portrays society through art. We perform street plays, stage dramas, sketches, poems, etc. Abhinay gives students a platform to showcase their talent and also works on polishing their skills. It is a disciplined as well as a wellmentored club. Here, people express themselves and shape their personalities and gain confidence. Club members are exposed to different aspects of theatre including impromptu skits, monologues, playwriting, dialogue delivery, building character, stage presence, etc. Here they learn to work as a team and groom their personality which helps them in their future endeavours"
+        ]
+      },
+      {
+        "tag": "Robotix",
+        "patterns": [
+            "Robotix club",
+            "what Robotix club do",
+            "Do we have Robotix club in college",
+            "Different activities Robotix club perform in college"
+        ],
+        "responses": [
+          "ROBOTiX Club is the Robotics outreach of NIT Raipur. The   was founded in the year 2014 with the purpose of technological skills in the diverse fields of mechatronics robotics by transcending the theoretical knowledge into applications to provide   modelled   solutions   for   real- problems."
+        ]
+      },
+      {
+        "tag": "Shaurya",
+        "patterns": [
+            "Sports club",
+            "Shaurya",
+            "what Shaurya do",
+            "Do we have sports club in college",
+            "Different activities sports club perform in college",
+            "SAMAR",
+            "Main event of Shaurya",
+            "What is the main event of Shaurya"
+        ],
+        "responses": [
+          "SHAURYA - THE SPORTS COMMITTEE : Students with proven technical credentials unite with a common aim to nurture the sportsman inside every one of us to give a platform where quality of sportsmanship can be woven in each one of us. Shaurya has been at the helm of conducting all the sports activities in the institute. the committee organizes events Samar( the annual sports fest), Inter-branch tournaments, etc. The committee also helps in proper structuring and formation of teams which represent NIT Raipur in national level sports fest including Inter-NIT Sports meet. \n\n SAMAR was the Annual College Sports Festival of NIT Raipur was organised by SHAURYA The Sports Committee of NIT Raipur. It was a four day event held in the month of December in which students from various colleges across Chhattisgarh came forward to participate. Over the years SAMAR has evolved and expanded to become the best sports extravaganza. One experiences the 4 days of awesomeness here. Being the most awaited event of the year, it is a platform where youths get together and showcase their talents and sportsmanship. NIT Raipur sports boasts of a rich culture, thriving immense participation. Samar was one of the best experience at NITRR and has a rich string of memories linked with it. SAMAR brings with it a great opportunity to show your endeavour along with fun and enjoyment."
+        ]
+      },
+      {
+        "tag": "Technocracy",
+        "patterns": [
+            "Technology club",
+            "Technocracy",
+            "Tech club",
+            "what Technocracy do",
+            "Do we have Technology club in college",
+            "Different activities Technocracy perform in college",
+            "AVARTAN",
+            "Main event of Technocracy",
+            "What is the main event of Technocracy"
+        ],
+        "responses": [
+          "The TechnoCracy is the students’ technical committee of NIT Raipur. It was a seed sown in 2007 by a few technical enthusiasts, which has grown and established its strong roots. Currently, it comprises of over 100 members. The vision of TechnoCracy is to bring out the technical thirst in every student through their innovative ideas and help them discover the concealed, untapped avenues of science and technology.  The TechnoCracy remains active throughout the year and conducts various workshops like on robotics, IOT (Internet Of Things), seminars by eminent personalities and guest lectures by alumni. The TechnoCracy is known to organize the Annual Science and Technical Festival of NIT Raipur; “AAVARTAN” which is the largest tech-fest of central India, by all standards. The main aim of AAVARTAN is to provide a national level platform for students to showcase their technical flair. It aspires to bring out the hidden and dormant engineer inside each student. It inspires students and gives them a whole new and enriching perspective in the world of technology and entrepreneurship. "
+        ]
+      },
+      {
+        "tag": "Ragga",
+        "patterns": [
+            "Singing club",
+            "Ragga",
+            "Music club",
+            "what Ragga do",
+            "Do we have Music club in college",
+            "Different activities Ragga perform in college",
+            "Shruti",
+            "Main event of Ragga",
+            "What is the main event of Ragga"
+        ],
+        "responses": [
+          "NIT Raipur’s music club, RAAGA, was started in 2009 with the support of Director, Dean Students’ Welfare, Dr. S. Sanyal as Professor incharge and Dr. Ayush Khare as Faculty Incharge. It has been working continuously since then and has been successful in its aim which is to provide a platform to the students who are interested in music. Every year, Team Raaga give its contribution in every cultural event including Independence Day, Republic Day, Alumni-Meet, Eclectika’s Cult Nite, etc. Raaga is best known for organizing annual music eve – Shruti."
+        ]
+      },
+      {
+        "tag": "Click",
+        "patterns": [
+            "click club",
+            "Photgraphy club",
+            "what click club do",
+            "Do we have photgraphy club in college",
+            "Different activities click club perform in college"
+        ],
+        "responses": [
+          "click club is a hub for photgraphic enthusiast in NIT Raipur. It aims to showcase ones talent and learn from each experiance in a collaborative way. We being so called universal club, handle official all converage charge of events."
+        ]
+      },
+      {
+        "tag": "Go_Green",
+        "patterns": [
+            "Go Green club",
+            "what Go Green club do",
+            "Different activities Go Green club perform in college"
+        ],
+        "responses": [
+          "Go Green,The Eco-social committee of NIT Raipur was founded with the purpose of educating the student population about the environmental perils that awaits us in near future. If the present youth does not take up a course of action, these problems will soon eclipse the whole of the earth. So we take it as a responsibility to make sure present youth are ready to turn up against any ill treatment to the mother Earth and be responsible themselves. Our vision is to be the pioneers of environmental justice and awareness in India and be the oath keepers of the responsibility and on us that is rested upon mankind to maintain nature’s integrity and purity to its original form."
+        ]
+      },
+      {
+        "tag": "Sahyog",
+        "patterns": [
+          "Sahyog",
+          "Mentorship club",
+          "what Sahyog do",
+          "Do we have Mentorship club in college",
+          "Different activities Sahyog perform in college"
+        ],
+        "responses": [
+          "The primary objective of Sahyog - The Mentorship Club is of providing constructive and positive interaction to students of NIT Raipur. The club continues to be a guidance source to students through various events based on societal and personal growth. Over the years members of Sahyog act as mentors by lending a helping hand towards fellow students There has been an organization of events such as Mock Placements, Career Counseling sessions, Aptitude Tests and Group discussions to help students advance in preparations for various career paths. Alongside there have been programs such as Blood Donation camp, Remedial classes, Green library and Student guidance sessions to provide an environment of social well-being and growth. Sahyog strives to bridge the gap between the institute's administration and student affairs. Sahyog is one of the club's which motivates students to look and work beyond the bubble of academics and step into the dynamics of the real world."
+        ]
+      },
+      {
+        "tag": "Nrityam",
+        "patterns": [
+          "Nrityam",
+          "Dance club",
+          "what Nrityam do",
+          "Do we have Dance club in college",
+          "Different activities Nrityam perform in college"
+        ],
+        "responses": [
+          "Ever since its foundation in 2016, Nrityam – the Dance Club of NIT Raipur has been actively functioning to improve the level of various dance forms in the college. It aims at promoting dancing through various platforms and encourages the dancers to showcase their talent by organizing various events.Team Nrityam believes that dance is a mediumt hrough which we can feel close to our own culture and learn about the other cultures as well. Further,Nrityam provides the students with a break from regular routines by making them groove to the beats."
+        ]
+      },
+      {
+        "tag": "Eclectika",
+        "patterns": [
+          "Eclectika",
+          "Anual cultural fest",
+          "what is Eclectika",
+          "Do we have Anual Fest in college",
+          "Different activities that happen in Eclectika"
+        ],
+        "responses": [
+          "Annual Cultural fest. Eclectika , the cultural festival of NIT Raipur is widely renowned as the largest fest in central India. With a participation roster exceeding over 1 hundred colleges across the academic demographic of India, Eclectika is a glorious rendition of the ideals of innovation, conception and determination to achieve high heights of success, and is a phenomenal platform to nurture and inspire talent, while uniting a wide and diverse participation pool under a single banner. We have seen artists such as Mohit Chauhan, Sachin, Jigar and many more names to follow.Eclectika has been a home to more than 50 different events during the three days, main attraction being our 6 mega events, EDM nite, pronite and the cultnite."
+        ]
+      },
+      {
+        "tag": "Placement",
+        "patterns": [
+          "How to get a good Job offer",
+          "How to get a good placement",
+          "What different skills are required to get placed"
+        ],
+        "responses": [
+          "Different skills required for placement are Data structures and Algorithm, CS Fundamentals, projects and good communication skills"
+        ]
+      },
+      {
+        "tag": "DSA",
+        "patterns": [
+          "How to study data structures and algorithms",
+          "How to study dsa",
+          "How to be good at Data structures and algorithms",
+          "From where to study Data structures and algorithms"
+        ],
+        "responses": [
+          "Online Platforms: \n Websites like LeetCode, HackerRank, CodeSignal, and GeeksforGeeks offer a vast collection of problems categorized by difficulty and topic. Solve problems regularly, starting with easy ones and gradually moving to more challenging ones. \n\n Books and Resources: Use textbooks like Cracking the Coding Interview by Gayle Laakmann McDowell or Introduction to Algorithms by Thomas H. Cormen for in-depth study. Explore online resources, such as Khan Academy and MIT OpenCourseWare, for video lectures on algorithms and data structures. \n\n Competitive Programming: \n Participate in online coding competitions like Codeforces, Topcoder, and Google Code Jam. Competitive programming challenges often cover a wide range of algorithmic problems and improve your problem-solving skills."
+        ]
+      },
+      {
+        "tag": "CS_Fundamental",
+        "patterns": [
+          "How to study CS Fundamentals",
+          "How to study core subjects",
+          "How to sudy operating system",
+          "How to sudy Database management system",
+          "How to sudy computer networks",
+          "How to sudy object oriented programming"
+        ],
+        "responses": [
+          "Study operating systems by reading textbooks, working on hands-on projects, and understanding key concepts such as processes, memory management, file systems, and system calls. \n\n Study database management systems by reading textbooks, practicing SQL queries, designing databases, and understanding concepts like normalization, indexing, and transaction management. \n\n Study computer networks by reading textbooks, implementing practical exercises, understanding protocols, and exploring topics such as TCP/IP, OSI model, and network security. \n\n Study object-oriented programming (OOP) by learning key principles (encapsulation, inheritance, polymorphism), practicing with OOP languages like Java or C++, and applying concepts in coding projects."
+        ]
+      }
+    ]
+  }
